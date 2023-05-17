@@ -1,3 +1,11 @@
+Коды：
+MNIST：
+[https://www.kaggle.com/code/machinetree/mnist-research](https://www.kaggle.com/code/machinetree/mnist-research)
+Omniglot：
+[https://www.kaggle.com/code/machinetree/omniglot-research](https://www.kaggle.com/code/machinetree/omniglot-research)
+Cifar-10:
+[https://www.kaggle.com/code/machinetree/cifar-10-research](https://www.kaggle.com/code/machinetree/cifar-10-research)
+
 # Анализ производительности байесовских нейронных сетей (BNN) с различными априорными весами на различных наборах данных (MNIST, Omniglot, CIFAR-10)
 
 ## Аннотация:
@@ -58,6 +66,12 @@ CIFAR-10: CIFAR-10 - это датасет классификации изобр
 Следует отметить, что вычислительная сложность метода MCMC выше, чем у метода VI, поэтому в случае ограниченных ресурсов метод VI может быть лучшим выбором. Кроме того, мы также сравнили влияние различных априорных распределений на производительность BNN. 
 
 На наборах данных MNIST и CIFAR-10 гауссовское априорное распределение показало хорошие результаты при использовании метода VI. Это говорит о том, что различные априорные распределения могут быть более или менее подходящими в зависимости от конкретного набора данных.
+
+Формы:
+https://github.com/MachineShu/porject-mldl---2023/blob/main/1.png
+https://github.com/MachineShu/porject-mldl---2023/blob/main/2.png
+
+Очевидно, что равномерное распределение дает лучшие результаты, модель не смещена в сторону какого-либо конкретного значения и более эффективно использует свои параметры.
 
 ## 7.Заключение
 
