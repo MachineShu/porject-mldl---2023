@@ -1,11 +1,3 @@
-Коды：
-MNIST：
-[https://www.kaggle.com/code/machinetree/mnist-research](https://www.kaggle.com/code/machinetree/mnist-research)
-Omniglot：
-[https://www.kaggle.com/code/machinetree/omniglot-research](https://www.kaggle.com/code/machinetree/omniglot-research)
-Cifar-10:
-[https://www.kaggle.com/code/machinetree/cifar-10-research](https://www.kaggle.com/code/machinetree/cifar-10-research)
-
 # Анализ производительности байесовских нейронных сетей (BNN) с различными априорными весами на различных наборах данных (MNIST, Omniglot, CIFAR-10)
 
 ## Аннотация:
