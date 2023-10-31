@@ -12,5 +12,9 @@ print(Add_nums(1,8))
 def Add_nums2(a,b):
     return a*b+2
 
+def Add_nums3(a,b):
+    return a/b+2
+
 print(Add_nums(1,8))
 print(Add_nums2(12,8))
+print(Add_nums3(5,7))
